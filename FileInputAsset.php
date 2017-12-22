@@ -1,6 +1,6 @@
 <?php
 
-namespace doumiaoduo;
+namespace dmdedu;
 
 use yii\web\AssetBundle;
 
