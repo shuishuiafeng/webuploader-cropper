@@ -1,0 +1,60 @@
+.cus-size { width: 650px; height: 650px; }
+.multi-img-details{margin: .5em 0; padding-left: 20px; clear:both;}
+.multi-img-details .multi-item {max-height: 100px; max-width: 100px; position: relative; float: left; margin-right: 18px; margin-bottom: .5em;}
+.multi-img-details .multi-item em {position: absolute; top: 0; right: -14px; }
+.cus-img {  width: 100px;height: 100px;  }
+.delImage {position:absolute; top: -3px; right: 0px;}
+.docs-preview {
+    margin-right: -1rem;
+}
+
+.img-preview {
+    float: left;
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+    overflow: hidden;
+}
+
+.img-preview > img {
+    max-width: 100%;
+}
+
+.preview-lg {
+    height: 9rem;
+    width: 16rem;
+}
+
+.preview-md {
+    height: 4.5rem;
+    width: 8rem;
+}
+
+.preview-sm {
+    height: 2.25rem;
+    width: 4rem;
+}
+.input-group-btn{
+    float:left;
+}
+#upload_history{
+    padding-bottom: 50px;
+}
+#upload_history .statusBar{
+    position:relative;
+}
+#upload_history .btns{
+    width: 150px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    line-height: 40px;
+}
+.history_images img{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.history_images img.checked{
+    border: 3px solid #afccd6;
+}
