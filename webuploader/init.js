@@ -489,7 +489,7 @@ jQuery(function() {
                 function buildModalBody () {
                     return '<ul class="nav nav-tabs"><li class="tab_extend active"><a href="#upload" data-toggle="tab" aria-expanded="false">本地选择</a></li>'+
                         '<li class="tab_extend"><a href="#upload_history" data-toggle="tab" aria-expanded="false">历史图片</a></li>'+
-                        '<li class="tab_extend"><a href="#upload_internet" data-toggle="tab" aria-expanded="false">网络图片</a></li></ul>'+
+                        '</ul>'+
                         '<div class="tab-content">'+
                         '<div role="tabpanel" class="tab-pane upload active" id="upload">' +
                         '<div id="uploader" class="uploader">' +
