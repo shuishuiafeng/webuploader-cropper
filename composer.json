@@ -1,0 +1,20 @@
+{
+    "name": "shuishuiafeng/webuploader-cropper",
+    "description": "webloader和cropper组件",
+    "keywords": ["yii2", "webuploader","cropper"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/shuishuiafeng/webuploader-cropper/issues",
+        "source": "https://github.com/shuishuiafeng/webuploader-cropper"
+    },
+    "require": {
+        "yiisoft/yii2": ">=2.0.4",
+        "aliyuncs/oss-sdk-php": ">=2.2.0",
+        "overtrue/wechat": "~4.0"
+        
+    },
+    "autoload": {
+        "psr-4": { "manks\\": "" }
+    }
+}
