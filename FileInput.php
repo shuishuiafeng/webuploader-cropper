@@ -1,6 +1,6 @@
 <?php
 
-namespace manks;
+namespace dmdedu;
 
 use EasyWeChat\Factory;
 use Yii;
