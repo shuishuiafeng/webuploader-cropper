@@ -36,7 +36,20 @@ params.php或者params-local.php内增加webuploader和domain配置项
 	],
 ],
 ```
-
+关于微信的配置也在params.php或者params-local.php内增加wechat_options的配置
+```php
+'wechat_options' => [
+        'debug'  => true,
+        'app_id' =>"wxxxxxxxxxxxx",
+        'secret' =>'xxxxxxxxxxxxxxxxxx',
+        'token'  =>'xxxxxxxxxxx',
+        'aes_key'=>'xxxxxxx',
+        'log' => [
+            'level' => 'debug',
+            'file'  => \Yii::getAlias('@mobile/runtime/logs/easywechat.log')
+        ],
+    ]
+```
 ###区分ActiveForm和非ActiveForm的基础使用
 ```php
 <?php 
